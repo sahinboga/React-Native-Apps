@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native'
+import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import Title from '../components/Title'
 
@@ -24,13 +24,13 @@ const Home = () => {
 
 export default Home
 
-const styles =StyleSheet.create({
-  bannerContainer:{
-    justifyContent:'center',
-    alignItems:'center'
-  },
-  banner:{
-    height:300,
-    width:300,
-  }
+const styles = StyleSheet.create({
+    bannerContainer:{
+        justifyContent:'center',
+        alignItems:'center'
+      },
+      banner:{
+        height:300,
+        width:300,
+      }
 })
